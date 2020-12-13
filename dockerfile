@@ -1,5 +1,7 @@
 FROM node:12
 
+WORKDIR /app
+
 ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true
 
 RUN apt-get update \
